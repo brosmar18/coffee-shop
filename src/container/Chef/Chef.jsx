@@ -1,4 +1,4 @@
-import React from 'reacdt';
+import React from 'react';
 
 const Chef = () => {
     return (
