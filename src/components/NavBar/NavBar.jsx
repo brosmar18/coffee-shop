@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <div className='nav'>
             <div className='nav__logo'>
-                
+                <img src='https://picsum.photos/640/360' alt='logo' />
             </div>
         </div>
     )
