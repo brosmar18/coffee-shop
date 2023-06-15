@@ -6,7 +6,11 @@ import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <div>NavBar</div>
+        <div className='nav'>
+            <div className='nav__logo'>
+                
+            </div>
+        </div>
     )
 }
 
