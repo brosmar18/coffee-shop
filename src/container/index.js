@@ -4,6 +4,7 @@ import FindUs from './FindUs/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
+import Intro from './Intro/Intro';
 
 export {
     AboutUs,
@@ -11,5 +12,6 @@ export {
     FindUs,
     Footer,
     Gallery,
-    Header
+    Header,
+    Intro
 }
