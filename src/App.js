@@ -4,7 +4,17 @@ import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Awards, Menu} fr
 
 const App = () => {
     return(
-        <div>App </div>
+        <div>
+            <Header />
+            <AboutUs />
+            <Menu />
+            <Chef />
+            <Intro />
+            <Awards />
+            <Gallery />
+            <FindUs />
+            <Footer />
+        </div>
     )
 }
 
