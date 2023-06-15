@@ -6,6 +6,7 @@ import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Awards from './Awards/Awards';
+import Menu from './Menu';
 
 export {
     AboutUs,
@@ -15,5 +16,6 @@ export {
     Gallery,
     Header,
     Intro,
-    Awards
+    Awards,
+    Menu
 }
