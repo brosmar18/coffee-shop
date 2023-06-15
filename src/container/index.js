@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
+import Awards from './Awards/Awards';
 
 export {
     AboutUs,
@@ -13,5 +14,6 @@ export {
     Footer,
     Gallery,
     Header,
-    Intro
+    Intro,
+    Awards
 }
