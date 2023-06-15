@@ -17,6 +17,12 @@ const NavBar = () => {
                 <li className='nav__link'><a href='/'>Awards</a></li>
                 <li className='nav__link'><a href='/'>Contact</a></li>
             </ul>
+            <div className='nav__login'>
+                <a href='/' className='nav__login-link'>Log In</a>
+            </div>
+            <div className='nav__mobile'>
+                <GiHamburgerMenu fontSize={27} />
+            </div>
         </div>
     )
 }
