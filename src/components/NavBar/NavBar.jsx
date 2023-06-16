@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className='nav'>
             <div className='nav__logo'>
-                <img src='https://picsum.photos/640/360' alt='logo' />
+                <img src='https://picsum.photos/640/360' className='nav__logo-img' alt='logo' />
             </div>
             <ul className='nav__links'>
                 <li className='nav__link'><a href='/'>Home</a></li>
