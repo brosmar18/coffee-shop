@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 import './NavBar.css';
 
 const NavBar = () => {
+    const [toggleMenu, setToggleMenu] = useState(false);
+
     return (
         <div className='nav'>
             <div className='nav__logo'>
@@ -21,7 +23,12 @@ const NavBar = () => {
                 <a href='/' className='nav__login-link'>Log In</a>
             </div>
             <div className='nav__mobile'>
-                <GiHamburgerMenu fontSize={27} />
+                <GiHamburgerMenu fontSize={27} onClick={() => setToggleMenu(true)} />
+                {toggleMenu && (
+                    <div className='nav__mobile-overlay flex-center slide-bottom'>
+                        <MdOutlineRestaurantMenu fontSize={27} className='overlay-close' onClick={() => setToggleMenu(false)} />
+                    </div>
+                )}
             </div>
         </div>
     )
