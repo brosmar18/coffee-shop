@@ -26,3 +26,9 @@
 .nav__link:hover {
     color: gray;
 }
+
+.nav__login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
