@@ -7,3 +7,8 @@
     padding: 1rem 2rem;
 }
 
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
