@@ -32,3 +32,13 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.nav__login-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.nav__login-link:hover {
+    border-bottom: 1px solid goldenrod;
+}
