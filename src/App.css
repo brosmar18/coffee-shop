@@ -15,3 +15,10 @@
     background-repeat: repeat;
     background-attachment: fixed;
 }
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 100vh;
+}
