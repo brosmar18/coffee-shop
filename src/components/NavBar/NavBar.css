@@ -17,3 +17,12 @@
     align-items: center;
     list-style: none;
 }
+
+.nav__link {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    color: gray;
+}
