@@ -27,6 +27,13 @@ const NavBar = () => {
                 {toggleMenu && (
                     <div className='nav__mobile-overlay flex-center slide-bottom'>
                         <MdOutlineRestaurantMenu fontSize={27} className='overlay-close' onClick={() => setToggleMenu(false)} />
+                        <ul className='nav__mobile-links'>
+                            <li><a href='/' onClick={() => setToggleMenu(false)}>Home</a></li>
+                            <li><a href='/' onClick={() => setToggleMenu(false)}>About</a></li>
+                            <li><a href='/' onClick={() => setToggleMenu(false)}>Menu</a></li>
+                            <li><a href='/' onClick={() => setToggleMenu(false)}>Awards</a></li>
+                            <li><a href='/' onClick={() => setToggleMenu(false)}>Contact</a></li>
+                        </ul>
                     </div>
                 )}
             </div>
