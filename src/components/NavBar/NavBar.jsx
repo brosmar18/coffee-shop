@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { images } from '../../constants';
+
 
 import './NavBar.css';
 
@@ -8,26 +10,26 @@ const NavBar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className='nav'>
-            <div className='nav__logo'>
-                <img src='https://picsum.photos/640/360' alt='logo' />
+        <div className='app__navbar'>
+            <div className="app__navbar-logo">
+                <img src={images.gericht} alt='logo' />
             </div>
-            <ul className='nav__links'>
-                <li className='nav__link'><a href='/'>Home</a></li>
-                <li className='nav__link'><a href='/'>About</a></li>
-                <li className='nav__link'><a href='/'>Menu</a></li>
-                <li className='nav__link'><a href='/'>Awards</a></li>
-                <li className='nav__link'><a href='/'>Contact</a></li>
+            <ul className="app__navbar-links">
+                <li className="p__opensans"><a href='/'>Home</a></li>
+                <li className="p__opensans"><a href='/'>About</a></li>
+                <li className="p__opensans"><a href='/'>Menu</a></li>
+                <li className="p__opensans"><a href='/'>Awards</a></li>
+                <li className="p__opensans"><a href='/'>Contact</a></li>
             </ul>
-            <div className='nav__login'>
-                <a href='/' className='nav__login-link'>Log In</a>
+            <div className="app__navbar-login">
+                <a href='/' className="p__opensans">Log In</a>
             </div>
-            <div className='nav__mobile'>
+            <div className="app__navbar-smallscreen">
                 <GiHamburgerMenu fontSize={27} onClick={() => setToggleMenu(true)} />
                 {toggleMenu && (
-                    <div className='nav__mobile-overlay flex-center slide-bottom'>
-                        <MdOutlineRestaurantMenu fontSize={27} className='overlay-close' onClick={() => setToggleMenu(false)} />
-                        <ul className='nav__mobile-links'>
+                    <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+                        <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
+                        <ul className="app__navbar-smallscreen_links">
                             <li><a href='/' onClick={() => setToggleMenu(false)}>Home</a></li>
                             <li><a href='/' onClick={() => setToggleMenu(false)}>About</a></li>
                             <li><a href='/' onClick={() => setToggleMenu(false)}>Menu</a></li>
