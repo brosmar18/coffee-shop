@@ -12,3 +12,16 @@
     height: 415px;
     z-index: 0;
 }
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
