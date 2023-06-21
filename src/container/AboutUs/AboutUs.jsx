@@ -14,6 +14,9 @@ const AboutUs = () => {
             <div className='app__aboutus-content_knife flex__center'>
                 <img src={images.knife} alt='about_knife' />
             </div>
+            <div className='app__aboutus-content_history'>
+                <h1 className='headtext__cormorant'>Our History</h1>
+            </div>
         </div>
     )
 }
