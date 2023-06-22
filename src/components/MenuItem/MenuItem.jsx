@@ -8,5 +8,10 @@ const MenuItem = () => {
                 <p>Title</p>
             </div>
         </div>
+        <div>
+            <div>
+                <p>Price</p>
+            </div>
+        </div>
     </div>
 }
