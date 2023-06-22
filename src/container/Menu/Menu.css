@@ -15,3 +15,12 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+.app__specialMenu-menu_heading {
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+}
