@@ -24,3 +24,10 @@
     line-height: 58.5px;
     letter-spacing: 0.04em;
 }
+
+.app__specialMenu-menu_wine, 
+.app__specialMenu-menu_cocktails {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
